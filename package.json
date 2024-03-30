@@ -1,7 +1,7 @@
 {
   "name": "http-proxy-template",
   "version": "1.0.0",
-  "description": "A simple Node.js HTTP Proxy so you can have micro apps running on the same domain and avoid CORS issues. Most useful for local environments.",
+  "description": "A simple Node.js HTTP Proxy so you can have micro apps running on the same origin and avoid CORS issues.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
