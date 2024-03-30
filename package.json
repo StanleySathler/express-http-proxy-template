@@ -1,0 +1,19 @@
+{
+  "name": "http-proxy-template",
+  "version": "1.0.0",
+  "description": "A simple Node.js HTTP Proxy so you can have micro apps running on the same origin and avoid CORS issues.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:local": "nodemon --watch . --ext js --exec \"npm run start\""
+  },
+  "author": "Stanley Sathler",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
